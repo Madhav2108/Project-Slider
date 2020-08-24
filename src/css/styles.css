@@ -6,7 +6,8 @@ body{
 	font-size: 15px;
 	line-height: 1.7;
 	color: #343434;
-	background-color: #000000;
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
 	overflow-x: hidden;
 }
 
@@ -67,37 +68,38 @@ a:hover {
     box-sizing: border-box;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    background-image: url('');
+    background-image: url(../img/1.PNG);
+    background-size: 100% 100%;
     animation: border-transform 6s linear infinite alternate forwards;
       -webkit-animation-play-state: paused;
       -moz-animation-play-state: paused;
       animation-play-state: paused;
 }
 .checkbox.scnd + label{
-    background-image: url('');
+    background-image: url(../img/2.PNG);
 }.checkbox.thrd + label{
-    background-image: url('');
+    background-image: url(../img/3.PNG);
 }
 .checkbox.foth + label{
-    background-image: url('');
+    background-image: url(../img/4.PNG);
 }
 .checkbox.fith + label{
-    background-image: url('');
+    background-image: url(../img/5.PNG);
 }
 .checkbox.six + label{
-    background-image: url('');
+    background-image: url(../img/6.PNG);
 }
 .checkbox.sev + label{
-    background-image: url('');
+    background-image: url(../img/7.PNG);
 }
 .checkbox.eig + label{
-    background-image: url('');
+    background-image: url(../img/8.PNG);
 }
 .checkbox.nin + label{
-    background-image: url('');
+    background-image: url(../img/9.PNG);
 }
 .checkbox.ten + label{
-    background-image: url('');
+    background-image: url(../img/10.PNG);
 }
 .checkbox:checked + label{
     box-shadow: 0 8px 25px 0 rgba(16,39,112,.3);
@@ -145,7 +147,8 @@ ul li {
     border: 5px solid #bdc3c7;
     background-size: cover;
     background-position: center;
-    background-image: url('');
+    background-image: url(../img/1.PNG);
+    background-size: 100% 100%;
     border-radius: 50%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -165,31 +168,31 @@ ul li span {
     mix-blend-mode: difference;
 }
 ul li:nth-child(2) {
-    background-image: url('');
+    background-image: url(../img/2.PNG);
 }
 ul li:nth-child(3) {
-    background-image: url('');
+    background-image: url(../img/3.PNG);
 }
 ul li:nth-child(4) {
-    background-image: url('');
+    background-image: url(../img/4.PNG);
 }
 ul li:nth-child(5) {
-    background-image: url('');
+    background-image: url(../img/5.PNG);
 }
 ul li:nth-child(6) {
-    background-image: url('');
+    background-image: url(../img/6.PNG);
 }
 ul li:nth-child(7) {
-    background-image: url('');
+    background-image: url(../img/7.PNG);
 }
 ul li:nth-child(8) {
-    background-image: url('');
+    background-image: url(../img/8.PNG);
 }
 ul li:nth-child(9) {
-    background-image: url('');
+    background-image: url(../img/9.PNG);
 }
 ul li:nth-child(10) {
-    background-image: url('');
+    background-image: url(../img/10.PNG);
 }
 
 .checkbox.frst:checked ~ ul li:nth-child(1) {
