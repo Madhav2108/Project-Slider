@@ -34,14 +34,15 @@ a:hover {
     position: relative;
     width: 100%;
     display: block;
-  }
-  .full-height{
-    min-height: 100vh;
-  }
-  .over-hide{
+}
+.full-height{
+    min-height: 100vh;}
+  
+    .over-hide{
     overflow: hidden;
   }
-  .padding-tb{
+
+.padding-tb{
     padding: 100px 0;
   }
   [type="radio"]:checked,
@@ -49,8 +50,8 @@ a:hover {
     position: absolute;
     left: -9999px;
   }
-  .checkbox:checked + label,
-  .checkbox:not(:checked) + label{
+.checkbox:checked + label,
+.checkbox:not(:checked) + label{
     position: relative;
     cursor: pointer;
     margin: 0 auto;
@@ -71,4 +72,31 @@ a:hover {
       -webkit-animation-play-state: paused;
       -moz-animation-play-state: paused;
       animation-play-state: paused;
-  }
+}
+.checkbox.scnd + label{
+    background-image: url('');
+}.checkbox.thrd + label{
+    background-image: url('');
+}
+.checkbox.foth + label{
+    background-image: url('');
+}
+.checkbox.fith + label{
+    background-image: url('');
+}
+.checkbox:checked + label{
+    box-shadow: 0 8px 25px 0 rgba(16,39,112,.3);
+    transform: scale(1.3);
+      -webkit-animation-play-state: running;
+      -moz-animation-play-state: running;
+      animation-play-state: running;
+}
+@keyframes border-transform{
+    0%,100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
+    14% { border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%; } 
+    28% { border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%; } 
+    42% { border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%; } 
+    56% { border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%; } 
+    70% { border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%; } 
+    84% { border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%; } 
+}
