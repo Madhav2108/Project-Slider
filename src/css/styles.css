@@ -23,3 +23,52 @@ body{
 	width: auto;
 	display: block;
 }
+
+a {
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+.section{
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  .full-height{
+    min-height: 100vh;
+  }
+  .over-hide{
+    overflow: hidden;
+  }
+  .padding-tb{
+    padding: 100px 0;
+  }
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked){
+    position: absolute;
+    left: -9999px;
+  }
+  .checkbox:checked + label,
+  .checkbox:not(:checked) + label{
+    position: relative;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 6px;
+    margin-left: 6px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #bdc3c7;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    background-image: url('');
+    animation: border-transform 6s linear infinite alternate forwards;
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      animation-play-state: paused;
+  }
